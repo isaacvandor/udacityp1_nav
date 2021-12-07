@@ -69,7 +69,7 @@ episode num: 25	 score: 17.00
 ```
 A plot of this testing can be found in the [Navigation ipython Notebook](Navigation.ipynb) or below:
 
-![here](testing_rewards.png)
+![here](dqn_testing_rewards.png)
 
 ### Future Work Considerations
 The most obvious path for improving this implementation is optimizing the current parameters. I could also improve performance by adding other extensions to the DQN algorithm, such as dueling DQN or prioritized experience replay. Another option is to try learning from pixels as already suggested as a next step.
