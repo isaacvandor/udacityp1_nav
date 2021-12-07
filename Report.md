@@ -78,3 +78,6 @@ The x-axis represents the episode number (0-25) while the y-axis corresponds to 
 
 ### Future Work Considerations
 The most obvious path for improving this implementation is optimizing the current parameters. I could also improve performance by adding other extensions to the DQN algorithm, such as dueling DQN or prioritized experience replay. Another option is to try learning from pixels as already suggested as a next step.
+
+### Attribution
+A lot of the starter code for this project came from the Udacity Deep Q Networks lesson and some of the basic pytorch tutorials. Thanks to Udacity for the ideas on how to structure things and a lot of the framework.
