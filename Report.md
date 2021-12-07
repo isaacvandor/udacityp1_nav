@@ -34,10 +34,12 @@ Episode 380	Average Score: 13.04
 
 You did it! Solved in 380 episodes!	avg score: 13.04
 ```
-A plot of this training can be seen in the [Navigation ipython Notebook](Navigation.ipynb)
+A plot of this training can be seen in the [Navigation ipython Notebook](Navigation.ipynb) with labels (these wouldn't transfer from the jupyter notebook for some reason) or below:
+
+![here](training_rewards.png)
 
 ## Testing
-Testing was done over 25 episodes using weights loaded from the model saved during training. Below are the results of testing:
+Testing was done over 25 episodes using weights loaded from the model saved during training. The average score is above 13 for all 25 episodes. There are a few episodes with low scores, suggesting this model could be further optimized. Below are the results of testing:
 ```
 episode num: 1	 score: 15.00
 episode num: 2	 score: 11.00
@@ -65,7 +67,9 @@ episode num: 23	 score: 15.00
 episode num: 24	 score: 13.00
 episode num: 25	 score: 17.00
 ```
-A plot of this testing can be found in the [Navigation ipython Notebook](Navigation.ipynb)
+A plot of this testing can be found in the [Navigation ipython Notebook](Navigation.ipynb) or below:
+
+![here](testing_rewards.png)
 
 ### Future Work Considerations
 The most obvious path for improving this implementation is optimizing the current parameters. I could also improve performance by adding other extensions to the DQN algorithm, such as dueling DQN or prioritized experience replay. Another option is to try learning from pixels as already suggested as a next step.
